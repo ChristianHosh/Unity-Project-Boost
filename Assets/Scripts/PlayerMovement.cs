@@ -10,11 +10,15 @@ public class PlayerMovement : MonoBehaviour
 
 
     private Rigidbody myRigidbody;
+    private AudioSource myAudioSrc;
 
     // Start is called before the first frame update
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody>();
+        myAudioSrc = GetComponent<AudioSource>();
+        
+        myAudioSrc.Stop();
     }
 
     // Update is called once per frame
@@ -34,6 +38,15 @@ public class PlayerMovement : MonoBehaviour
         {
             // THRUST
             myRigidbody.AddRelativeForce(Vector3.up * (thrustPower * 100 * Time.deltaTime));
+
+            if (!myAudioSrc.isPlaying)
+            {
+                myAudioSrc.Play();
+            }
+        }
+        else
+        {
+            myAudioSrc.Stop();
         }
     }
 

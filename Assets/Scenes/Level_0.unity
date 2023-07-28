@@ -530,6 +530,7 @@ Transform:
   - {fileID: 5318092105652038556}
   - {fileID: 5697048178262779041}
   - {fileID: 7413918441992142625}
+  - {fileID: 919880926364420335}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -538,11 +539,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2108148233}
     m_Modifications:
     - target: {fileID: 3775663948443278864, guid: b5411a8973e587c43b9f534b3150f4cf, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3775663948443278864, guid: b5411a8973e587c43b9f534b3150f4cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -562,15 +563,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3775663948443278864, guid: b5411a8973e587c43b9f534b3150f4cf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3775663948443278864, guid: b5411a8973e587c43b9f534b3150f4cf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3775663948443278864, guid: b5411a8973e587c43b9f534b3150f4cf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3775663948443278864, guid: b5411a8973e587c43b9f534b3150f4cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -590,6 +591,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5411a8973e587c43b9f534b3150f4cf, type: 3}
+--- !u!4 &919880926364420335 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3775663948443278864, guid: b5411a8973e587c43b9f534b3150f4cf, type: 3}
+  m_PrefabInstance: {fileID: 919880926364420334}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5318092105652038555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -830,26 +836,6 @@ PrefabInstance:
     - target: {fileID: 8114674494248313378, guid: b487094a6d3ae184bb0c371ed819ce46, type: 3}
       propertyPath: m_Name
       value: Player (Rocket)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8114674494248313388, guid: b487094a6d3ae184bb0c371ed819ce46, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8114674494248313388, guid: b487094a6d3ae184bb0c371ed819ce46, type: 3}
-      propertyPath: m_Constraints
-      value: 56
-      objectReference: {fileID: 0}
-    - target: {fileID: 8114674494248313388, guid: b487094a6d3ae184bb0c371ed819ce46, type: 3}
-      propertyPath: m_Interpolate
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8114674494248313389, guid: b487094a6d3ae184bb0c371ed819ce46, type: 3}
-      propertyPath: thrustPower
-      value: 17.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8114674494248313389, guid: b487094a6d3ae184bb0c371ed819ce46, type: 3}
-      propertyPath: rotationSpeed
-      value: 65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b487094a6d3ae184bb0c371ed819ce46, type: 3}
